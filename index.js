@@ -1,97 +1,47 @@
-console.log(`1 task`);
-console.log();
-
-//  if (confirm('Добрий день, чи хочете Ви розрахувати площу та периметр прямокутника?')) {
-//     const lengthRectangle = prompt ('Введіть довижну прямокутника' );
-//     const widtheRectangle = prompt ('Введіть ширину прямокутника' );
-//     const perimetrRectangle = (Number(lengthRectangle) + Number(widtheRectangle));
-//     const areaRectangle = ( Number(lengthRectangle) * Number(widtheRectangle));
-//     const resultPerimetr = alert('Ваш периметр - ' + perimetrRectangle);
-//     const resultArea = alert ('Ваша площа - ' + areaRectangle);
+// const accessAge = 12;
+// const userAge = prompt('Введіть Ваш вік');
+// console.log(typeof userAge);
+// if (Number(userAge) >= accessAge) {
+//     alert('Добре, Ви можете купити квиток')
 // } else {
-//     if (confirm ('Ви впевнені?')) {
-//         alert('Добре, до побачення!')
-//     } else {
-//         const lengthRectangle = prompt ('Введіть довижну прямокутника' );
-//     const widtheRectangle = prompt ('Введіть ширину прямокутника' );
-//     const perimetrRectangle = (Number(lengthRectangle) + Number(widtheRectangle));
-//     const areaRectangle = ( Number(lengthRectangle) * Number(widtheRectangle));
-//     const resultPerimetr = alert('Ваш периметр - ' + perimetrRectangle);
-//     const resultArea = alert ('Ваша площа - ' + areaRectangle);
-//     }
+//     const yearWait = accessAge - Number(userAge);
+//     alert('Треба ще почекати років: '+ yearWait);
 // }
-console.groupEnd();
-// console.log(Math.PI);
-// if (confirm('Добрий день, чи хочете Ви розрахувати площу та довжину кола маючи тільки радіус?')){
-//     const constRadius = prompt ('Введіть ваш радіус');
-    
-//     const areaO = (Math.PI) * (constRadius * constRadius);
 
-//     alert('Площа кола = ' + areaO );
-//     alert('Довжина кола = ' + (2) *  (Math.PI) * constRadius);
+// const num1User = prompt('Enter first number');
+// const num2User = prompt('Enter second number');
+
+// const num1 = Number (num1User);
+// const num2 = Number (num2User);
+// if(num1>num2){
+//     alert(num1 + '- bigest');
+// } else if (num2 > num1){
+//     alert(num2 + ' - bigest');
+// }else {
+//     alert ('Equal');
 // }
-// else {
-// alert('До побачення!')
 
-// }
-console.groupEnd();
-
-// if (confirm('Добрий день, чи хочете Ви розрахувати об\'єм куба, знаючи лише довжину його ребра?')) {
-//     const lengthOfСubeEdge = prompt ('Введіть довжину ребра цього куба');
-//     alert('Об\'єм цього кута = ' + lengthOfСubeEdge * lengthOfСubeEdge * lengthOfСubeEdge);
+// const accessPassword = 'qwe123';
+// const password = prompt ('Введіть пароль');
+// if (password === accessPassword) {
+//     alert('Пароль правильний')
 // } else {
-//     alert('До побачення!')
+//     alert('Вхід заборонено')
+// }
+// if(password > accessPassword){
+//     alert('Вхід заборонено')
+// } else if (accessPassword > Password){
+//     alert('Вхід заборонено')
+// }else {
+//     alert('Пароль правильний')
 // }
 
-console.groupEnd();
-// console.log(Math.PI);
-// if (confirm('Добрий день, чи хочете Ви розрахувати об\'єм циліндру, знаючи лише його радіус основи та висоту? ')) {
-//     const radiusOfCylinder  = prompt ('Введіть радіус Вашого циліндру');
-//     const heightOfCylindre = prompt ('Введіть висоту Вашого циліндру');
-//     const resultOfCylinder = Math.PI * radiusOfCylinder  * heightOfCylindre;
-//     alert("Об'єм Вашого циліндру = " + resultOfCylinder);
-// } else {
-//     alert('Добре, до побачення!');
-// }
-console.groupEnd();
-// if (confirm('Добрий день, чи хочете Ви привітатися англійською мовою? Якщо Ви відмовите я привітаюсь українською!')) {
-//     alert('Hello!')
-// } else {
-//     alert(`Добрий день!`)
-// }
-console.groupEnd();
-// if (confirm('Добрий день чи хочете Ви зробити розрахунок?')) {
-//     const price = prompt ('Введіть суму рахунку');
-//     const percentages = prompt ('Введіть відсоток чайових');
-//     const allPrice = price + price * percentages;
-//     alert('Сума рахунку разом х чайовими - ' + allPrice)
-// } else {
-//     alert('До побачення!');
-// }
-console.groupEnd();
-// // const MoneyForHobby7days = prompt('Введіть, будь ласка суму яку Ви витрачаєте на своє хобі за тиждень')
-// // const MoneyForHobby30days = MoneyForHobby7days * 4.28571428571;
-// // if (confirm('Чи хочете Ви, щоби я підрахував скільки Ви витрачаєте на своє хобі за місяць?')) {
-// //     alert('Ви витрачаєте на своє хобі за місяць - ' + MoneyForHobby30days)
-// // } else {
-// //     alert('Добре, до побачення!');
-
-// }
-console.groupEnd();
-const MoneyForWiFi30days = prompt('Введіть, будь ласка суму яку Ви витрачаєте грошей на інтернет за місяць')
-const MoneyForWiFi365days = MoneyForWiFi365days * 12.1666666667;
-if (confirm('Чи хочете Ви, щоби я підрахував скільки Ви витрачаєте на свій інтернет за рік?')) {
-    alert('Ви витрачаєте на свій інтернет за рік - ' + MoneyForWiFi365days)
-} else {
-    alert('Добре, до побачення!');
-
-}
-console.groupEnd();
-
-
-
-
-
-
- 
-
+const text = prompt ('Введіть число')
+const num = Number(text)
+if(num === 0){
+    alert('0')
+}else if(num < 0) {
+alert('Негативне число')
+}else {
+    alert('Позитивне число')
+    }
