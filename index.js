@@ -40,16 +40,56 @@
 // }else{
 //     alert('Мова не підтримується')
 // }
-switch (confirm('Ви хочете покинути сайт?')) {
-    case true:
-        alert('До побачення!');
+// switch (confirm('Ви хочете покинути сайт?')) {
+//     case true:
+//         alert('До побачення!');
+//         break;
+// case false:
+// alert('Ми раді, що Ви лишаєтесь з нами!');
+// break;
+//     default:
+//         break;
+// }
+// confirm('Ви хочете покинути сайт?')
+// ? alert ('До побачення!')
+// :alert ('Ми раді, що Ви лишаєтесь з нами!')
+// const dayOfWeek = prompt ('Введіть число от 1 до 7');
+
+//     switch (dayOfWeek ) {
+//         case '1':
+//             case '2':
+//                 case '3':
+//                     case '4':
+//                         case '5':
+//             alert('workday')
+//             break;
+//             case '6':
+//                 case '7':
+//             alert('weekend')
+//             break;
+            
+    
+//         default:
+//             alert('Такого дня тиждня не існує!')
+//             break;
+//     }
+const userInput1 = prompt('Enter first number')
+const userInput2 = prompt('Enter second number')
+
+const number1 = Number(userInput1)
+const number2 = Number(userInput2)
+
+const operator = prompt('Enter operator: +, -, *, /, % ')
+
+switch (operator) {
+    case '+':
+        const result = number1 + number2;
+        alert ( number1 + '+' + number2 + '=' + result);
         break;
-case false:
-alert('Ми раді, що Ви лишаєтесь з нами!');
-break;
+
     default:
+        alert('operator not exist');
         break;
 }
-confirm('Ви хочете покинути сайт?')
-? alert ('До побачення!')
-:alert ('Ми раді, що Ви лишаєтесь з нами!')
+
+
