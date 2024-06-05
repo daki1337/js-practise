@@ -176,8 +176,8 @@
 //         alert('Такого місяця не існує')
 //         break;
 // }
-const userInput = prompt('Введіть номер місяця')
-switch (userInput) {
+// const userInput = prompt('Введіть номер місяця')
+// switch (userInput) {
     // case '1' :
     //     case  '12':
     //         case '2':
@@ -205,6 +205,66 @@ switch (userInput) {
     // default:
     //     alert('Такого місяця не існує')
     //     break; }
-    const side1
-     const side2
-    const side3 
+    // const side1
+    //  const side2
+    // const side3 
+    // let amountPlate = 0;
+    // const totalAmountPlate = 5;
+//     while (amountPlate>0) {
+//         console.log ('washing plate ', amountPlate)
+// amountPlate--; // decrement
+//     }
+
+// while (condition) {
+//     amountPlate++;
+//     console.log('washing plate', amountPlate);
+// }
+
+// while (true) {
+//    const userInput = prompt ('enter number 77');
+//    if(userInput === '77'){
+//     alert('thanks');
+//     break;
+//    }
+// }
+// while (true) {
+//     const userInput = prompt ('enter number multiply 7');
+//      const userNumber = Number(userInput)
+//     if(userInput%7 === 0 && userInput!=='' && userInput!== null){
+//      alert('thanks');
+//      break;
+//     }
+//  }
+//  while (true) {
+//     const userInput = prompt ('enter number 0');
+     
+//     if(userInput === 0 ){
+//      alert('thanks');
+//      break;
+//     }
+// }
+// while (true) {
+//     const userInput = prompt ('enter something');
+     
+//     if(userInput ){
+//      alert('thanks');
+//      break;
+//     }
+// }
+
+while(true){
+    const userInput = prompt('enter number');
+    const userNumber = Number(userInput);
+
+    if(userInput === '' || userInput === null){
+        alert('error! enter number!')
+        break;
+    } else if(userNumber === secretNumber) {
+alert('you win')
+    }else if(userNumber > secretNumber) {
+        alert('secret number less ')
+            }else{
+                alert('secret number bigger ')
+            }
+
+}
