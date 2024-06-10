@@ -1,22 +1,18 @@
-// const start = 5;
-// const end = 10;
+// const number1 = 2;
+// const number2 = 7;
+// const result = number1 * number2;
 
-// let summa = 0;
-// for (let i = start; i < end; i++){
-//     summa += i;
-// }console.log ('summa = ', summa);
+// while(true){
+//     const userInput = prompt ('скільки буде ${number1} * ${number2} ?');
+//     if (userInput === null) {
+//         alert('БУДЬ УВАЖНИЙ!');
+//         continue;
+//     }
 
-// let mult = 1;
-// for(let i =start; i < end; i++){
-//     mult *= i;
-// }console.log ('mult = ', mult);
-const password = '123qwe'
+//     if(Number(userInput) === result){
+//         alert ('Win! Відповідь =' + result);
+//         break;
+//     }
+//     alert('Спробуй ще раз');
+// }
 
-for(let i=0; i<3; i++){
-    const userInputPass = prompt('Enter password')
-    if (userInputPass  === password){
-        alert('welcome')
-        break;
-    }
-    alert('У Вас лишилося ще' + (maxtry - i - 1) + 'спроби')
-}
