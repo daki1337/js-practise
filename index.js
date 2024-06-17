@@ -1,54 +1,43 @@
-// const number1 = 2;
-// const number2 = 7;
-// const result = number1 * number2;
+/**
+ * 
+ *@param {number} number1
+ *@param {number} number2
+ *@returns {boolean}
+ */
+function isMultiple (number1,number2){
+    return number1 % number2 === 0;
+}
+    // console.log(isMultiple(4,5))
 
-// while(true){
-//     const userInput = prompt ('скільки буде ${number1} * ${number2} ?');
-//     if (userInput === null) {
-//         alert('БУДЬ УВАЖНИЙ!');
-//         continue;
-//     }
+    function getAreaTrangle(basis, height){
+        return basis*height/2;
+    }
+    // console.log(getareaTriangle(7.5,8));
 
-//     if(Number(userInput) === result){
-//         alert ('Win! Відповідь =' + result);
-//         break;
-//     }
-//     alert('Спробуй ще раз');
-// }
+    /**
+ * @param {number} procents
+ *@param {number} vartist
+ *@returns {boolean}
+ */
+    function summaWithProcents (summa, procents = 20){
+        return vartist + vartist * procents / 100;
+    }
+    // console.log(summaWithProcents())
 
-// const start = 15;
-// const end = 25;
-
-// for (let i = start; i < end; i++){
-//     if(i % 4 === 0 && i % 5 === 0){
-//         continue;
-//     }
-//     console.log(i)
-// }
-
-// const start = 1;
-// const end = 10;
-
-// let summa = 0;
-
-// for ( let i = start; i <= end; i++){
-// if ( i%2 === 0 || i%3 === 0){
-//     continue;
-// }
-// summa +=i
-// }
-// console.log(summa)
-
-// const number = 5;
-
-// for(let i = 1; i <=10; i++){
-//     console.log(`${number}*${i}=${number*i}`);
-// }
-
-// for ( let num1 = 1; num1 <= 10; num1++){
-//     console.group(num1);
-//     for( let num2 = 1; num2 <= 10; num2++){
-//         console.log(`${num1} * ${num2} = ${num1*num2}`);
-//     }
-//     console.groupEnd();
-// }
+    /**
+ * @param {number} number1
+ *@param {number} number2
+ *@returns (boolean)
+ */
+    function isEvenDifferenceBetweenNumbers(number1,number2){
+ (number1 - number2) / 2 === 0 ? true : false;
+    }
+const INCH_SM = 2.54;
+    /**
+ * @param {number} inch
+ * @param {number} sm
+ *@returns (number)
+ */
+function convertInchToSm(sm = inch * 2.54){
+    return sm;
+}
