@@ -122,17 +122,133 @@
 // console.log (country.getDecribe());
 // console.log (country.getDestination());
 
-const rectangle = {
-    width: 100,
-    height: 200,
-    getArea (){
-        return (this.width) * this.height
-    },
-    getPerimetr (){
-        return this.width * 2 + this.height * 2
+// const rectangle = {
+//     width: 100,
+//     height: 200,
+//     getArea (){
+//         return (this.width) * this.height
+//     },
+//     getPerimetr (){
+//         return this.width * 2 + this.height * 2
  
-    }
+//     }
     
+// }
+// console.log (rectangle.getArea())
+// console.log (rectangle.getPerimetr())
+
+// function Movie( title, director, releaseYear){
+//     this.title;
+//     this.director;
+//     this.releaseYear;
+//     this.getPoster = function (){
+//         return `${this.title} directed by ${this.director}(${this.releaseYear})`;
+        
+//     }
+    // this.toString = function (){
+    //     return this.title;
+    // }
+// }
+
+// const movie1 = new Movie ('Title', 'Director', 2000);
+// console.log(movie1);
+// console.log ( movie1.toString());
+
+// alert ( movie1);
+
+
+// function City(){
+//     name: 'Kyiv';
+//     country: 'Ukraine';
+//     population: 2800
+// }
+// this.toString = function (){
+//          return this.City;
+//      }
+//      this.getFullInfo (){
+
+//      }
+
+// const obj = {};
+// console.log(obj);
+
+// function User(name, age, isMale){
+//     this.name = name;
+//     this.age = age;
+//     this.isMale = isMale;
+// }
+// function UserPrototype(){
+//     this.getName = function(){
+//         return this.name;
+//     }
+//     this.getInfo = function (){
+//         return `$ {this.name} is ${this.age} years old`;
+//     }
+//     this.getGender = function (){
+//         return this.isMale ? 'male' : 'female';
+
+//     }
+// }
+
+// User.prototype = new UserPrototype();
+
+// const user1 = new User ('Alex', 20, true);
+// console.log(user1);
+// console.log(user1.getInfo());
+// console.log(user1.getGender());
+// const user2 = new User ('Maria', 23, false);
+// console.log (user2);
+
+// /**
+//  * 
+//  * 
+//  * @param { number } radius
+//  */
+// function Circle (radius){
+//     this.redius = radius;}
+//     function CirclePrototype() {
+//        this.getArea = function(){
+//         return Math.PI * this.radius * this.radius
+//     };
+//     this.getPerimetr - function (){
+//         return 2 * Math.PI * this.radius
+//     };
+//     this.getDiametr = function () {
+//         return 2 * this.radius; 
+//     }
+    
+//     }
+
+// Circle.prototype = new CirclePrototype();
+// const result = new Circle (3);
+// console.log(result.getArea());
+// console.log(result.getPerimetr);
+// console.log(result.getDiametr);
+
+const userProto = {
+    say(){
+        return `my name is ${this.name}`
+    }
 }
-console.log (rectangle.getArea())
-console.log (rectangle.getPerimetr())
+const user = {
+    name: 'Bred',
+}
+
+user.__proto__ = userProto;
+personalbar.__proto__ = userProto;
+
+console.log(user);
+console.log(user.say());
+console.log(user.walk());
+
+const event = {
+    title: ' HB',
+
+}
+const eventProto = {
+    shotTitle (){
+        return this.title
+    }
+}
+event.__proto__ = eventProto;
+console.log(event.showTitle());
