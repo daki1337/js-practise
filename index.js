@@ -225,30 +225,97 @@
 // console.log(result.getPerimetr);
 // console.log(result.getDiametr);
 
-const userProto = {
-    say(){
-        return `my name is ${this.name}`
-    }
-}
-const user = {
-    name: 'Bred',
-}
+// const userProto = {
+//     say(){
+//         return `my name is ${this.name}`
+//     }
+// }
+// const user = {
+//     name: 'Bred',
+// }
 
-user.__proto__ = userProto;
-personalbar.__proto__ = userProto;
+// user.__proto__ = userProto;
+// personalbar.__proto__ = userProto;
 
-console.log(user);
-console.log(user.say());
-console.log(user.walk());
+// console.log(user);
+// console.log(user.say());
+// console.log(user.walk());
 
-const event = {
-    title: ' HB',
+// const event = {
+//     title: ' HB',
 
-}
-const eventProto = {
-    shotTitle (){
-        return this.title
-    }
-}
-event.__proto__ = eventProto;
-console.log(event.showTitle());
+// }
+// const eventProto = {
+//     shotTitle (){
+//         return this.title
+//     }
+// }
+// event.__proto__ = eventProto;
+// console.log(event.showTitle());
+
+// const user = {
+//     firstName: 'Bred',
+//     lastName: 'Pitt',
+//     isMale: true,
+//     age: 60,
+//     say(){
+//         return 'hi!';
+//     },
+//     123:888888
+// }
+
+// console.log(user);
+// console.log(user.123]); !!!! not work!
+// console.log(user[123]);
+// console.log(user['123']);
+// console.log(user['age']);
+// console.log(user['age']);
+// console.log(user['isMale']);
+// console.log(user[lastName]);
+// console.log(user['say']());
+
+// const colors = ['red'], ['orange'],['yellow'],['green'];
+// console.log(colors)
+
+// const numbers = new Array (6,25,13,41);
+// console.log(numbers)
+
+// const names = ('Pasha', 'Vasya');
+// console.log(names.length)
+
+// names.push = ('Anna', 'Maria');
+// console.log(names);
+
+// names.unshift ('Max', 'Fred')
+// console.log(names);
+
+// const lastName = names.pop();
+// console.log(lastName);
+// console.log(names);
+
+// const firstName = names.shift();
+// console.log(firstName);
+// console.log(names);
+
+const fruits = [];
+console.log()
+
+fruits.push('яблуко','мандарин','кокос')
+console.log(fruits);
+
+fruits.unshift('манго','банан')
+console.log(fruits);
+
+const lastFruits = fruits.pop();
+console.log(lastFruits);
+console.log(fruits);
+
+const lLastFruits = fruits.pop();
+console.log(lLastFruits);
+console.log(fruits);
+
+fruits.unshift(lastFruits);
+console.log(fruits);
+
+fruits.unshift(lLastFruits);
+console.log(fruits);
