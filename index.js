@@ -297,25 +297,76 @@
 // console.log(firstName);
 // console.log(names);
 
-const fruits = [];
-console.log()
+// const fruits = [];
+// console.log()
 
-fruits.push('яблуко','мандарин','кокос')
-console.log(fruits);
+// fruits.push('яблуко','мандарин','кокос')
+// console.log(fruits);
 
-fruits.unshift('манго','банан')
-console.log(fruits);
+// fruits.unshift('манго','банан')
+// console.log(fruits);
 
-const lastFruits = fruits.pop();
-console.log(lastFruits);
-console.log(fruits);
+// const lastFruits = fruits.pop();
+// console.log(lastFruits);
+// console.log(fruits);
 
-const lLastFruits = fruits.pop();
-console.log(lLastFruits);
-console.log(fruits);
+// const lLastFruits = fruits.pop();
+// console.log(lLastFruits);
+// console.log(fruits);
 
-fruits.unshift(lastFruits);
-console.log(fruits);
+// fruits.unshift(lastFruits);
+// console.log(fruits);
 
-fruits.unshift(lLastFruits);
-console.log(fruits);
+// fruits.unshift(lLastFruits);
+// console.log(fruits);
+
+// const names = ['Anna', ' Max', 'Otto', 'Leo','Bred'];
+// console.log(names);
+
+// const indexOtto = names.indexIf('Otto');
+// console.log(indexOtto)
+
+
+
+// const names = ['Anna', ' Max', 'Otto', 'Leo'];
+// console.log(names);
+
+// const lastName = names.pop()
+
+// const firstName = names.shift()
+
+// names.push(firstName)
+
+// names.unshift(lastName)
+
+// console.log(names);
+
+// const deleteDay1 = dayOfWeek.indexOf('Tuesday');
+// dayOfWeek.splice(deleteDay1, 2,'Friday');
+
+// const deleteDay2 = dayOfWeek.indexOf('Monday');
+// dayOfWeek.splice(deleteDay2,)
+
+// const numbers = [5,7,1,6,9,3];
+
+// const key = 2;
+
+
+// if(numbers.includes(key) === false) {
+// numbers.unshift(key)
+// }
+
+// console.log(numbers);
+
+// const colors = ["red","blue","green","yellow","purple","orange","pink"];
+// const favColor = prompt('Which you\`re favorite color?')
+// if(colors.includes(favColor)){
+//     const index = colors.indexOf(favColor);
+//     colors.splice(index, 1);
+// } else{
+//     const userNumber = prompt (`enter number from 0 to ${colors.length}`);
+//     colors.splice(Number(userNumber), 0, favColor);
+// }
+
+// alert(colors);
+
