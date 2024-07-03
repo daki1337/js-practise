@@ -421,4 +421,33 @@
 // console.log(summa);
 // console.log(numbers);
 
-// const summaOddNumbers = numbers.filter((elem)=>elem%2===1)
+// 
+
+// const numbers = [5, 10, 15, 20, 25, 30, 35];
+// console.log(numbers);
+
+// //pop unshift
+// const lastNumber = numbers.pop();
+// numbers.unshift(lastNumber);
+// console.log(numbers);
+
+// // shift 
+// const firstElement = numbers.shift();
+// numbers.push(firstElement);
+// console.log(numbers);
+
+// numbers.splice(2, 3, 55);
+// console.log(numbers);
+
+// numbers.forEach((num)=>{console.log(num*3)})
+
+// console.log('task7');
+// const numbers = [5, 10, 15, 20, 25, 30, 35];
+// const newNumbers1=numbers.map((elem) => elem*10)
+// console.log(newNumbers1);
+// console.log(numberS);
+
+
+
+
+
