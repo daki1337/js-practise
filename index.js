@@ -448,6 +448,30 @@
 // console.log(numberS);
 
 
+//string
 
+// const str1 = 'hello';
+// console.log(str1);
+// console.log(str1.length)
 
+// console.log(str1.includes('and'));
+
+// const firstLetter = str1.charArt(0);
+// console.log(firstLetter);
+
+// const firstLetterCode = str1.charCodeAt(0);
+// console.log(firstLetterCode);
+
+// while (true){
+//     const userInput = prompt ('enter name for variable');
+// }
+
+// const format =  fileName.trim()
+
+// switch(format){
+//     case ' txt ':
+//         case ' doc ':
+//             console.log('текст');
+//             break;
+// }
 
