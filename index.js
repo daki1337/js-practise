@@ -475,3 +475,18 @@
 //             break;
 // }
 
+// const number = 8125455;
+// console.log(number, typeof number);
+// const numToStr = String(number);
+// console.log(numToStr, typeof numToStr);
+// const arrStr = numToStr.split('');
+// console.log(arrStr, typeof arrStr);
+// const arrNums = arrStr.map((elem) => Number(elem));
+// console.log(arrNums, typeof arrNums);
+// const summa = arrNums.reduce((accumulator, elem ) => accumulator + elem);
+// console.log(summa);
+
+// const result = String(number)
+// .split('')
+// .map ((elem)=>Number(elem))
+// .reduce ((accumulator))
