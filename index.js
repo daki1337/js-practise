@@ -490,3 +490,8 @@
 // .split('')
 // .map ((elem)=>Number(elem))
 // .reduce ((accumulator))
+
+ function summa (...args) {
+    console.log(args);//array
+    return args.reduce((accumulator, elem) => accumulator + elemm, 0)
+ }
